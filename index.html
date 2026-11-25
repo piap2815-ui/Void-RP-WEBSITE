@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080a10">
+    <meta name="description" content="Void RP – dein RageMP-Roleplay-Server. Kaufe GTA V, installiere RageMP und starte dein eigenes Roleplay-Abenteuer.">
+    <title>Void RP – Deine Stadt. Deine Geschichte.</title>
+    <link rel="icon" href="assets/void.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header" id="top">
+        <div class="header-inner">
+            <a class="brand" href="#top" aria-label="Void RP Startseite">
+                <img src="assets/void-rp.png" alt="Void RP">
+            </a>
+            <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
+                <a href="#start">Start</a>
+                <a href="#servers">Server</a>
+                <a href="#download">Spiel starten</a>
+                <a href="#about">Über uns</a>
+                <a href="#community">Community</a>
+            </nav>
+            <div class="header-actions">
+                <span class="online-pill"><span></span> Server online</span>
+                <a class="button button-small button-primary" href="#download">Jetzt spielen</a>
+                <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="main-nav">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="start">
+            <div class="hero-image" role="img" aria-label="Neonbeleuchtete Stadt bei Nacht mit Palmen"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-glow"></div>
+
+            <div class="hero-content">
+                <p class="eyebrow"><span></span> RageMP Roleplay Server</p>
+                <img class="hero-logo" src="assets/void-rp.png" alt="Void RP">
+                <h1>Deine Stadt.<br><span>Deine Geschichte.</span></h1>
+                <p class="hero-copy">Werde Teil einer lebendigen Community, gestalte dein eigenes Leben und erlebe Roleplay ohne Grenzen.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#download">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>
+                        Fang jetzt an
+                    </a>
+                    <a class="button button-ghost" href="#about">Void RP entdecken</a>
+                </div>
+            </div>
+
+            <div class="role-grid" aria-label="Rollen auf Void RP">
+                <article class="role-card role-one">
+                    <img src="assets/role-police.jpg" alt="Polizist von Void RP vor einer Neonstadt" loading="lazy">
+                    <div class="role-shade"></div>
+                    <span class="role-number">01</span>
+                    <div class="role-label">
+                        <span class="role-kicker">Ordnung &amp; Sicherheit</span>
+                        <strong>Polizei</strong>
+                    </div>
+                </article>
+                <article class="role-card role-two">
+                    <img src="assets/role-mechanic.jpg" alt="Mechaniker von Void RP in seiner Werkstatt" loading="lazy">
+                    <div class="role-shade"></div>
+                    <span class="role-number">02</span>
+                    <div class="role-label">
+                        <span class="role-kicker">Werkstatt &amp; Straße</span>
+                        <strong>Mechanik</strong>
+                    </div>
+                </article>
+                <a class="start-card" href="#download" aria-label="Jetzt bei Void RP starten">
+                    <span class="start-kicker">Dein Platz wartet</span>
+                    <span class="play-circle">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>
+                    </span>
+                    <strong>FANG<br>JETZT AN</strong>
+                    <small>Dein Abenteuer wartet</small>
+                    <span class="start-arrow" aria-hidden="true">→</span>
+                </a>
+                <article class="role-card role-three">
+                    <img src="assets/role-medic.jpg" alt="Sanitäterin von Void RP vor einem Krankenwagen" loading="lazy">
+                    <div class="role-shade"></div>
+                    <span class="role-number">03</span>
+                    <div class="role-label">
+                        <span class="role-kicker">Hilfe im Einsatz</span>
+                        <strong>Sanitäter</strong>
+                    </div>
+                </article>
+                <article class="role-card role-four">
+                    <img src="assets/role-detective.jpg" alt="Detective von Void RP in einer nächtlichen Gasse" loading="lazy">
+                    <div class="role-shade"></div>
+                    <span class="role-number">04</span>
+                    <div class="role-label">
+                        <span class="role-kicker">Jeder Spur folgen</span>
+                        <strong>Detective</strong>
+                    </div>
+                </article>
+                <article class="role-card role-five">
+                    <img src="assets/role-racer.jpg" alt="Street Racer von Void RP vor der Skyline" loading="lazy">
+                    <div class="role-shade"></div>
+                    <span class="role-number">05</span>
+                    <div class="role-label">
+                        <span class="role-kicker">Die Nacht gehört dir</span>
+                        <strong>Street Racing</strong>
+                    </div>
+                </article>
+            </div>
+
+            <a class="scroll-cue" href="#servers" aria-label="Weiter zu den Servern">
+                <span></span>
+            </a>
+        </section>
+
+        <section class="feature-strip" aria-label="Void RP Funktionen">
+            <div class="feature-strip-inner">
+                <div><strong>RageMP</strong><span>Deine Plattform</span></div>
+                <div><strong>Eigene Fahrzeuge</strong><span>Dein Style</span></div>
+                <div><strong>Lebendige Wirtschaft</strong><span>Deine Chancen</span></div>
+                <div><strong>Aktive Community</strong><span>Deine Menschen</span></div>
+            </div>
+        </section>
+
+        <section class="section server-section" id="servers">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow"><span></span> Unsere Spielwelten</p>
+                    <h2>Drei Welten. Ein Void.</h2>
+                    <p>Wähle den Server, der zu deiner Geschichte passt.</p>
+                </div>
+                <div class="server-grid">
+                    <article class="server-card server-city reveal">
+                        <div class="server-image"></div>
+                        <div class="server-content">
+                            <div class="server-meta"><span class="status-dot"></span> Online <span>EU West</span></div>
+                            <h3>Void City</h3>
+                            <p>Klassisches Roleplay mit Wirtschaft, Fraktionen und einem echten Stadtleben.</p>
+                            <button class="text-link" type="button" data-placeholder="Void City ist als Demo-Server angelegt. Die echte Server-IP folgt durch dein Serverteam.">Server ansehen <span>→</span></button>
+                        </div>
+                    </article>
+                    <article class="server-card server-racing reveal">
+                        <div class="server-image"></div>
+                        <div class="server-content">
+                            <div class="server-meta"><span class="status-dot"></span> Online <span>EU Central</span></div>
+                            <h3>Void Racing</h3>
+                            <p>Illegale Straßenrennen, Tuning und Events für alle, die Vollgas geben wollen.</p>
+                            <button class="text-link" type="button" data-placeholder="Void Racing ist als Demo-Server angelegt. Die echte Server-IP folgt durch dein Serverteam.">Server ansehen <span>→</span></button>
+                        </div>
+                    </article>
+                    <article class="server-card server-survival reveal">
+                        <div class="server-image"></div>
+                        <div class="server-content">
+                            <div class="server-meta"><span class="status-dot"></span> Online <span>EU North</span></div>
+                            <h3>Void Survival</h3>
+                            <p>Farmen, Bauen und gemeinsame Abenteuer abseits des großen Stadtlebens.</p>
+                            <button class="text-link" type="button" data-placeholder="Void Survival ist als Demo-Server angelegt. Die echte Server-IP folgt durch dein Serverteam.">Server ansehen <span>→</span></button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section setup-section" id="download">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow"><span></span> Dein Weg in die Stadt</p>
+                    <h2>Drei Schritte.<br>Dann bist du dabei.</h2>
+                    <p>GTA V ist die Grundlage. RageMP öffnet die Tore zu deinem Roleplay-Server.</p>
+                </div>
+                <div class="setup-grid">
+                    <a class="setup-card setup-gta reveal" href="https://www.rockstargames.com/gta-v" target="_blank" rel="noopener noreferrer">
+                        <div class="setup-art">
+                            <img src="assets/gta-v.jpg" alt="Grand Theft Auto V Key Art" loading="lazy">
+                            <span class="setup-step">Schritt 01</span>
+                            <span class="setup-arrow" aria-hidden="true">↗</span>
+                        </div>
+                        <div class="setup-body">
+                            <span class="setup-tag">Zuerst das Spiel</span>
+                            <h3>GTA V kaufen</h3>
+                            <p>Hol dir Grand Theft Auto V für deinen PC. Du benötigst eine legale Version des Spiels.</p>
+                            <span class="setup-link">Bei Rockstar Games ansehen <span aria-hidden="true">→</span></span>
+                        </div>
+                    </a>
+                    <a class="setup-card setup-ragemp reveal" href="https://rage.mp/" target="_blank" rel="noopener noreferrer">
+                        <div class="setup-art setup-ragemp-art">
+                            <img class="setup-ragemp-logo" src="assets/ragemp-logo.png" alt="RageMP Multiplayer" loading="lazy">
+                            <span class="setup-step">Schritt 02</span>
+                            <span class="setup-arrow" aria-hidden="true">↗</span>
+                        </div>
+                        <div class="setup-body">
+                            <span class="setup-tag">Danach der Multiplayer</span>
+                            <h3>RageMP herunterladen</h3>
+                            <p>Installiere RageMP, melde dich mit deinem Rockstar-Konto an und verbinde dich mit der Community.</p>
+                            <span class="setup-link">Zur offiziellen RageMP-Seite <span aria-hidden="true">→</span></span>
+                        </div>
+                    </a>
+                    <article class="setup-card setup-play reveal">
+                        <div class="setup-art setup-play-art">
+                            <img src="assets/void-rp.png" alt="Void RP" loading="lazy">
+                            <span class="setup-step">Schritt 03</span>
+                            <span class="play-ring" aria-hidden="true">
+                                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+                            </span>
+                        </div>
+                        <div class="setup-body">
+                            <span class="setup-tag">Jetzt deine Geschichte</span>
+                            <h3>Server wählen &amp; spielen</h3>
+                            <p>Wähle deine Spielwelt, verbinde dich mit Void RP und gestalte dein eigenes Leben.</p>
+                            <button class="setup-link setup-button" type="button" data-placeholder="Die echte Void-RP-Server-IP wird hier ergänzt. Danach kannst du dich direkt über RageMP verbinden.">Server entdecken <span aria-hidden="true">→</span></button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section about-section" id="about">
+            <div class="container about-grid">
+                <div class="about-content reveal">
+                    <p class="eyebrow"><span></span> Das ist Void RP</p>
+                    <h2>Mehr als ein Server.<br>Eine zweite Heimat.</h2>
+                    <p>Void RP verbindet freiwilliges Roleplay, eine aktive Community und ein Wirtschaftssystem, in dem jede Entscheidung zählt. Ob Ordnungshüter, Unternehmer, Sanitäter oder Straßenrennfahrer – hier findest du deinen Platz.</p>
+                    <div class="about-points">
+                        <div><span>✓</span> Faires und erfahrenes Serverteam</div>
+                        <div><span>✓</span> Eigene Fahrzeuge, Häuser und Businesses</div>
+                        <div><span>✓</span> Regelmäßige Events und neue Inhalte</div>
+                    </div>
+                    <a class="button button-ghost" href="#community">Zur Community <span>→</span></a>
+                </div>
+                <div class="about-visual reveal">
+                    <img src="assets/void-rp-roles.png" alt="Fünf originale Void-RP-Charaktere: Polizist, Mechaniker, Sanitäterin, Detective und Street Racer" loading="lazy">
+                    <div class="about-caption"><span>VOID RP</span> Jede Rolle erzählt eine Geschichte.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section community-section" id="community">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow"><span></span> Gemeinsam Void</p>
+                    <h2>Die Stadt lebt von euch.</h2>
+                    <p>Bleib verbunden, tausche dich aus und gestalte die Community aktiv mit.</p>
+                </div>
+                <div class="community-grid">
+                    <article class="community-card reveal">
+                        <span class="community-icon discord-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 5.3A18 18 0 0 0 15.3 4l-.6 1.2a16 16 0 0 0-5.4 0L8.7 4a18 18 0 0 0-4.2 1.3C1.8 9.2 1 13 1.4 16.7a18 18 0 0 0 5.4 2.7l1.1-1.8-1.7-.8.4-.3a12.8 12.8 0 0 0 10.8 0l.4.3-1.7.8 1.1 1.8a18 18 0 0 0 5.4-2.7c.5-4.3-.8-8-3.1-11.4ZM8.7 14.5c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2Zm6.6 0c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2Z" /></svg>
+                        </span>
+                        <h3>Discord</h3>
+                        <p>Chat, Events und direkter Kontakt zur Community.</p>
+                        <button class="text-link" type="button" data-placeholder="Dein Discord-Einladungslink wird hier ergänzt.">Discord beitreten <span>→</span></button>
+                    </article>
+                    <article class="community-card reveal">
+                        <span class="community-icon forum-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v12H8l-4 4V4Zm4 4h8v2H8V8Zm0 4h5v2H8v-2Z" /></svg>
+                        </span>
+                        <h3>Forum</h3>
+                        <p>Guides, Bewerbungen und lange Diskussionen.</p>
+                        <button class="text-link" type="button" data-placeholder="Die Forum-Adresse wird hier ergänzt.">Forum öffnen <span>→</span></button>
+                    </article>
+                    <article class="community-card reveal">
+                        <span class="community-icon wiki-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H11v16H6.5A2.5 2.5 0 0 0 4 21.5v-16ZM13 3h4.5A2.5 2.5 0 0 1 20 5.5v16a2.5 2.5 0 0 0-2.5-2.5H13V3Z" /></svg>
+                        </span>
+                        <h3>Wiki</h3>
+                        <p>Alle Regeln, Systeme und Tipps für dein Roleplay.</p>
+                        <button class="text-link" type="button" data-placeholder="Die Wiki-Adresse wird hier ergänzt.">Wiki entdecken <span>→</span></button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="final-cta">
+            <div class="final-cta-bg"></div>
+            <div class="container final-cta-content reveal">
+                <img src="assets/void-rp.png" alt="Void RP">
+                <h2>Deine Geschichte beginnt jetzt.</h2>
+                <p>Kaufe GTA V, installiere RageMP und werde Teil von Void RP.</p>
+                <a class="button button-primary" href="#download">Jetzt starten <span>→</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a class="brand footer-brand" href="#top"><img src="assets/void-rp.png" alt="Void RP"></a>
+            <p>© <span id="year">2026</span> Void RP. Alle Rechte vorbehalten.</p>
+            <div class="footer-links">
+                <a href="#start">Start</a>
+                <a href="#download">Spiel starten</a>
+                <a href="#community">Community</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
